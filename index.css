@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: #F3F5F9;
+    overflow-x: hidden;
+}
+
+.heder {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #CFFA00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+.top:hover {
+    cursor: pointer;
+}
+
+/* .top2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    font-size: small;
+} */
+.secondBar {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barRight {
+    color: #F3F5F9;
+    font-size: 11px;
+    font-family: monospace;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 4rem;
+}
+
+.barleft {
+    color: #F3F5F9;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.hlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hlist:hover {
+    cursor: pointer;
+}
+
+.hlist li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    padding-right: 1.5rem;
+}
+
+.logo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecter {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selecter li {
+    padding: 1rem;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.selecter li:hover {
+    cursor: pointer;
+    text-underline-position: below;
+    color: #030303;
+    border-bottom: 3px solid rgb(87, 87, 87);
+    border-bottom-width: 5px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.leftPic {
+    margin-left: 7px;
+}
+
+.rightText {
+    margin-left: 3rem;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: monospace;
+    font-size: 50px;
+    color: #000;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.bWraper {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    color: rgb(33, 33, 33);
+    background: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.bannerone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.newArrival {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.textArrival {
+    margin-left: 16rem;
+    margin-right: 1rem;
+}
+
+.textArrival button {
+    margin: 1rem;
+}
+
+.slider{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 500px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.newArrival2{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.picArrival2{
+ margin-left: 2.7rem;
+}
+.textArrival-2{
+    margin-left: 1rem;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+}
+.subWraper{
+    display: flex;
+    align-items: center;   
+}
